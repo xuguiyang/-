@@ -1,0 +1,214 @@
+.myclassroom{
+    .header{
+        width: 100%;
+        height: 260px;
+        background: url(../images/myclassroom/header3.png) no-repeat center;
+        background-size: cover;
+        padding-top: 30px;
+        padding-left: 19px;
+        position: relative;
+        color: #fff;
+        .header_title{
+            position: absolute; 
+            left: 50%;
+            transform: translate(-50%,-100%);
+            margin-top: 20px;
+            font-size: 22px;
+         
+        }
+        .head_portrait{
+            position: relative;
+            top: 60px;
+            left: 50%;
+            transform: translate(-50%,-50%);            
+            width: 80px;
+            height: 80px; 
+            border-radius: 50%;
+    
+            .name{
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%,-50%); 
+                padding-top: 20px;           
+                color: #f3f3f5
+            }   
+        }
+    }
+   
+   .class_item{
+     width: 100%;
+    position: absolute;
+    top: 186px;
+    padding: 0 60px 0 20px;
+    color: #f3f3f5;
+    .class_name{
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+    .item_number{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 18px;
+        font-size: 18px;
+    }
+    span{
+        display: inline-block;
+      
+    }
+    .border{
+        color: #d6d7c8;
+    }
+   }
+   .class_ad{
+       width: 100%;
+       height: 184px;
+       display: flex;
+       justify-content: space-between;      
+       padding: 22px 10px;
+      flex-wrap: wrap;
+       .taech{
+           width: 48%;
+           height: 70px;
+           position: relative;
+           display: inline-block;
+           box-shadow: #ccc 0 0 30px;
+           border-radius: 5px;
+           margin-bottom: 12px;
+         
+            p{
+                display: inline-block;
+                text-align: center;
+                line-height: 70px;
+                position: absolute;
+                left: 20px;
+            }
+            img{
+               position: absolute;
+               top: 24px;
+               right: 38px;
+            }
+         }
+       
+   }
+/*---------------中间tab---------------*/
+// .m_tab{
+//     // width: 100%;
+//     height: 29px;
+//     font-size: 14px;
+//     color: #b2bebf;
+//     margin: 20px 58px 0 58px;
+//     display: flex;
+//     justify-content: space-around;
+//     .yfb{
+//         width: 129px;
+//         height: 29px;
+//         line-height: 29px;
+//         background-color: #f7fafd;
+//       text-align: center;
+//       border-radius: 30px;
+//     }
+//     .yfd.current{
+//         background-color: #44b3ff;
+//     }
+//     .yxz{
+//         width: 129px;
+//         height: 29px;
+//         line-height: 29px;
+//         background-color: #f7fafd;
+//         text-align: center;
+//         border-radius: 30px;
+//     }
+
+// }
+.m_tab{
+    padding: 10px 60px 30px 60px;
+    .mui-segmented-control{
+    border:none;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px #cde9f8;
+    }
+    .yfd{
+        border-radius: 30px;
+    }
+    .yxz{
+        border-radius: 30px;
+        border: none
+    }
+    .mui-segmented-control .mui-control-item.mui-active {
+        color: #fff;
+        background-color: #44b3ff;
+    }
+}
+
+   .course_load{
+       width: 100%;
+       padding: 15px 12px;
+       display: flex; 
+    //    border-bottom: 1px solid #ecefef;
+        .course_load_left{
+            width: 100px;
+            flex: 0 0 100px;
+            display: inline-block;
+            overflow: hidden; 
+
+            img{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            } 
+        }
+    
+        .course_load_right{  
+            width: 100%;                    
+            display: inline-block;
+            padding-left: 12px;
+       
+            .class_name{
+                font-size: 20px;
+                color: #000000;
+                padding-bottom: 14px;
+            }
+            .priace__i{
+               padding-bottom: 43px;
+            
+                .priace{
+                    font-size: 14px;
+                    color: #f5a623;                  
+                }
+                .sales_volime{                    
+                    display: inline-block;
+                    font-size: 9px;
+                }
+            } 
+            .other{
+                width: 100%;
+                font-size: 12px;
+                color: #b9b9b9;
+                flex: 1;
+                display: flex;
+                justify-content: space-between;
+               
+            }
+            .right{
+                padding-left:20px; 
+                // width: 106px;
+                // display: inline-block
+            }
+            .more{
+                
+                display: inline-block
+            }
+            
+        }
+
+    }
+    .border{
+        // width: 100%;
+        height: 1px;
+        margin: 0 12px 0 12px;
+        
+        background-color: #ecefef;
+    }
+
+}

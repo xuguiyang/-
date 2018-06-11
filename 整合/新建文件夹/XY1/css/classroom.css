@@ -1,0 +1,141 @@
+body {
+  background-color: #fff;
+}
+.xy_search .search_box {
+  height: 28px;
+  font-size: 18px;
+  padding-right: 44px;
+}
+.xy_search .qiandao {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+.xy_search .qiandao .iconfont {
+  font-size: 18px;
+  padding: 0 4px;
+  color: #fff;
+}
+.xy_search .qiandao .name {
+  font-size: 12px;
+  color: #fff;
+}
+.class_nav_box {
+  width: 100%;
+  height: 260px;
+  background: url(../images/classroom/bg_img.png) no-repeat center;
+  background-size: cover;
+}
+.class_nav_box .class_nav {
+  width: 100%;
+  height: 100%;
+  padding: 60px 0 0 26px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.class_nav_box .class_nav a {
+  width: 25%;
+  height: 102px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.class_nav_box .class_nav a h5 {
+  padding: 8px;
+  color: #fff;
+}
+.class_nav_box .class_nav img {
+  width: 50px;
+  height: 50px;
+}
+.take_lessons {
+  width: 100%;
+  height: 199px;
+  padding: 12px 16px 32px 12px;
+  box-shadow: #ccc 0 0 30px;
+}
+.take_lessons .day_take_lessons {
+  display: flex;
+  justify-content: space-between;
+}
+.take_lessons .day_take_lessons h3 {
+  font-size: 16px;
+  display: inline-block;
+}
+.take_lessons .day_take_lessons p {
+  display: inline-block;
+}
+.take_lessons .count_down {
+  padding: 8px 0 20px 0;
+}
+.take_lessons .course .course_left {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+}
+.take_lessons .course .course_left img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.take_lessons .course .course_right {
+  display: inline-block;
+}
+.take_lessons .course .course_right h4 {
+  font-size: 16px;
+  font-family: 微软雅黑;
+  top: 20px;
+}
+.take_lessons .course .course_right .original {
+  text-decoration: line-through;
+  padding: 38px 0 12px 0;
+}
+.take_lessons .course .course_right .porice {
+  display: inline-block;
+  color: #f5a623;
+  padding-right: 20px;
+  font-weight: 700;
+}
+.take_lessons .course .course_right .discount {
+  background-color: #f56123;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 0 2px 0 0;
+}
+.cnxh {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  font-size: 10px;
+}
+.cnxh .cnxh_img {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cnxh .cnxh_img img {
+  display: inline-block;
+  vertical-align: middle;
+}
+ .cnxh .border1 {
+  width: 100px;
+  height: 1px;
+  display: inline-block;
+  background-color: #ecefef;
+  position: absolute;
+  top: 34px;
+  left: 18px;
+}
+ .cnxh .border2 {
+  width: 100px;
+  height: 1px;
+  display: inline-block;
+  background-color: #ecefef;
+  position: absolute;
+  top: 34px;
+  right: 18px;
+}

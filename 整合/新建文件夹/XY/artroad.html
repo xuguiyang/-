@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <!-- 下面的meta代表 当在ios系统的手机中进入该网站  你的手机上的有信号显示的顶部是黑色 -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <!-- 下面的meta代表 当在iso系统的手机中 是否是让系统标记出手机号或者email邮箱 如果你写的是no 代表忽略电话号码 
+        如果写的yes 那么会出现特殊的样式 
+  -->
+    <meta content="telephone=no" name="format-detection">
+    <meta name="description" content="">
+    <meta name="Keywords" content="">
+    <title>艺术之路</title>
+    <!-- 引入mui的css文件 -->
+    <link rel="stylesheet" href="./res/mui/css/mui.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./res/iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入当前页面的css -->
+    <link rel="stylesheet" href="./css/artroad.css">
+    <link rel="stylesheet" href="./css/rili.css">
+</head>
+
+<body>
+    <div class="artroad">
+        <!-- header   start -->
+        <header class="lt_header">
+            <div class="artroad_title">我的艺术之路</div>
+        </header>
+
+        <!-- nav start -->
+        
+
+        <!-- detail  start -->
+        <div class="detail">
+            <div class="detail-left">
+                <p>学习累计时长</p>
+                <p>12.5h</p>
+            </div>
+            <div class="detail-center">
+                <p>连续登陆天数</p>
+                <p>45</p>
+            </div>
+            <div class="detail-right">
+                <p>分享视频处</p>
+                <p>34</p>
+            </div>
+        </div>
+
+        <!-- Ec     start -->
+        <div class="class_item">
+                <span class="left_line"></span>
+                <span>学习趋势图</span>
+            </div>
+        <div class="pic">
+            <img src="./images/artroad/zhexiantu.png" alt="">
+        </div>
+        <!-- 徽章墙 -->
+        <div class="class_item">
+            <span class="left_line"></span>
+            <span>徽章墙</span>
+        </div>
+
+        <div class="hui">
+            <div class="hui-Z">
+                <img src="./images/artroad/奖章.png" alt="">
+                <p>成就A</p>
+            </div>
+            <div class="hui-Z">
+                <img src="./images/artroad/奖章 copy.png" alt="">
+                <p>成就B</p>
+            </div>
+            <div class="hui-Z">
+                <img src="./images/artroad/奖章 copy 2.png" alt="">
+                <p>成就C</p>
+            </div>
+            <div class="hui-Z">
+                <img src="./images/artroad/奖章1.png" alt="">
+                <p>成就D</p>
+            </div>
+        </div>
+        <!-- 日历 -->
+        <div class="class_item">
+            <span class="left_line"></span>
+            <span>课程日历</span>
+        </div>
+        <div class="riLi">
+            <div id='schedule-box' class="boxshaw"></div>
+        </div>
+
+        <div class="btns">
+            <button type="button" class="mui-btn btn1">课程列表</button>
+            <button type="button" class="mui-btn btn2">历史课程</button>
+        </div>
+
+
+        <!-- 搜藏夹 -->
+        <div class="class_item scshadow">
+            <span class="left_line"></span>
+            <span>收藏夹</span>
+        </div>
+        <div class="sou">
+            <div class="hui-Z">
+                <img src="./images/artroad/book.png" alt="">
+                <p>9</p>
+                <p>课程收藏</p>
+            </div>
+            <div class="hui-Z">
+                <img src="./images/artroad/房子.png" alt="">
+                <p>6</p>
+                <p>教师收藏</p>
+            </div>
+            <div class="hui-Z">
+                <img src="./images/artroad/文件夹.png" alt="">
+                <p>4</p>
+                <p>内容收藏</p>
+            </div>
+            <div class="hui-Z">
+                <img src="./images/artroad/个人.png" alt="">
+                <p>14</p>
+                <p>关注教师</p>
+            </div>
+        </div>
+        <footer class="xy_footer">
+            <nav class="mui-bar mui-bar-tab">
+                <a class="mui-tab-item " href="./index.html">
+                    <i class="icon iconfont icon-quan2 "></i>
+                    <!-- <p class=" find tab_active"></p> -->
+                    <div>
+                        <span class="mui-tab-label">发现</span>
+                    </div>
+                </a>
+                <a class="mui-tab-item" href="./classroom.html">
+                    <!-- <p class=" class_room tab_active"></p> -->
+                    <i class="icon iconfont icon-gongwenbao"></i>
+                    <div>
+                        <span class="mui-tab-label">课堂</span>
+                    </div>
+                    </li>
+                </a>
+                <a class="mui-tab-item" href="./faceToface.html">
+                    <!-- <p class=" ftf tab_active"></p> -->
+                    <i class="icon iconfont icon-1"></i>
+                    <div>
+                        <span class="mui-tab-label">大师面对面</span>
+                    </div>
+                </a>
+                <a class="mui-tab-item mui-active" href="./artroad.html">
+                    <!-- <p class=" art_road tab_active"></p> -->
+                    <i class="icon iconfont icon-zhongdianluduan"></i>
+                    <div>
+                        <span class="mui-tab-label">艺术之路</span>
+                    </div>
+                </a>
+                <a class="mui-tab-item" href="./myclassroom.html">
+                    <!-- <p class=" my tab_active"></p> -->
+                    <i class="icon iconfont icon-unie611"></i>
+                    <div>
+                        <span class="mui-tab-label">我的</span>
+                    </div>
+                </a>
+            </nav>
+        </footer>
+    </div>
+
+
+    <script src="./res/mui/js/mui.min.js"></script>
+    <script src="./res/zepto/zepto.min.js"></script>
+    <!-- <script src="./jquery/jquery.min.js"></script> -->
+    <!-- <script src="./echarts/echarts.min.js"></script> -->
+    <!-- <script src="./echarts/echarts.simple.min.js"></script> -->
+    <!-- <script src="./echarts/echarts.common.min.js"></script> -->
+    <script src="./res/iconfont/iconfont.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/schedule.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

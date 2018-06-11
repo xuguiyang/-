@@ -1,0 +1,190 @@
+.header {
+  width: 100%;
+  height: 260px;
+  background: url(../images/myclassroom/header3.png) no-repeat center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-left: 19px;
+  position: relative;
+  color: #fff;
+}
+
+.header .header_title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.header .head_portrait {
+  position: relative;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.header .head_portrait .name {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 20px;
+  color: #f3f3f5;
+}
+
+.class_item {
+  width: 100%;
+  position: absolute;
+  top: 186px;
+  padding: 0 60px 0 20px;
+  color: #f3f3f5;
+}
+
+.class_item .class_name {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.class_item .item_number {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+  font-size: 18px;
+}
+
+.class_item span {
+  display: inline-block;
+}
+
+.class_item .border {
+  color: #d6d7c8;
+}
+
+.class_ad {
+  width: 100%;
+  height: 184px;
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 10px;
+  flex-wrap: wrap;
+}
+
+.class_ad .taech {
+  width: 48%;
+  height: 70px;
+  position: relative;
+  display: inline-block;
+  box-shadow: #ccc 0 0 30px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.class_ad .taech p {
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  position: absolute;
+  left: 20px;
+}
+
+.class_ad .taech img {
+  position: absolute;
+  top: 24px;
+  right: 38px;
+}
+
+.m_tab {
+  padding: 10px 60px 30px 60px;
+}
+
+.m_tab .mui-segmented-control {
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px #cde9f8;
+}
+
+.m_tab .yfd {
+  border-radius: 30px;
+}
+
+.m_tab .yxz {
+  border-radius: 30px;
+  border: none;
+}
+
+.m_tab .mui-segmented-control .mui-control-item.mui-active {
+  color: #fff;
+  background-color: #44b3ff;
+}
+
+.course_load {
+  width: 100%;
+  padding: 15px 12px;
+  display: flex;
+}
+
+.course_load .course_load_left {
+  width: 100px;
+  flex: 0 0 100px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.course_load .course_load_left img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.course_load .course_load_right {
+  width: 100%;
+  display: inline-block;
+  padding-left: 12px;
+}
+
+.course_load .course_load_right .class_name {
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 14px;
+}
+
+.course_load .course_load_right .priace__i {
+  padding-bottom: 43px;
+}
+
+.course_load .course_load_right .priace__i .priace {
+  font-size: 14px;
+  color: #f5a623;
+}
+
+.course_load .course_load_right .priace__i .sales_volime {
+  display: inline-block;
+  font-size: 9px;
+}
+
+.course_load .course_load_right .other {
+  width: 100%;
+  font-size: 12px;
+  color: #b9b9b9;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course_load .course_load_right .right {
+  padding-left: 20px;
+}
+
+.course_load .course_load_right .more {
+  display: inline-block;
+}
+
+.border {
+  height: 1px;
+  margin: 0 12px 0 12px;
+  background-color: #ecefef;
+}
